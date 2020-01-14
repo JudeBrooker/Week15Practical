@@ -32,7 +32,7 @@ public class Stack {
             top --;
             return item;
         }
-        return 0;
+        return -1;
     }
 
     private static void showStack(){
